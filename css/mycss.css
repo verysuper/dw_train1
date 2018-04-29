@@ -41,6 +41,11 @@ body {
 	clear: both;
 	background-color: #EAA7F9;
 }
+#header h2 { /*修正因h2段落標籤造成網頁上方空白區域*/
+	padding: 0;
+	margin: 0;
+}
+
 
 
 
