@@ -21,7 +21,7 @@ body {
 #nav {
 	width: 100%;
 	background-color: #F9D865;
-	height: 30px;
+	height: auto;
 }
 #main {
 	background-color: #BCF4A8;
@@ -68,7 +68,7 @@ body {
 	border: thin solid rgba(255,5,9,1.00);
 	position: relative;
 	top: 10px;
-	left: 200px;
+	left: 40px;
 }
 #header p {
 	width: 400px;
@@ -78,92 +78,24 @@ body {
 	text-align: center;
 	padding-top: 40px;
 	position: relative;
-	left: 150px;
+	left: 0px;
 }
 #nav ul {
 	font-family: 微軟正黑體;
 	margin: 0; /*修正留白*/
-	text-align: center;
 	line-height: 30px;
+	padding-left: 0px;  /*修正mobile留白*/
 }
 #nav ul li {
-	display: inline-block;
-	width: 100px;
+	list-style-type: none;
+	text-align: center;	
 }
 }
 
 @media (min-width:768px) and (max-width:991px){
-#header h2 {
-	width: 300px;
-	height: 60px;
-	display: block;
-	background-color: rgba(243,23,51,0.21);
-	font-family: 微軟正黑體;
-	text-align: center;
-	line-height: 60px; /*文字的line-height與box model同高，可使其上下置中*/
-	border-radius: 10px;
-	border: thin solid rgba(255,5,9,1.00);
-	position: relative;
-	top: 10px;
-	left: 200px;
-}
-#header p {
-	width: 400px;
-	height: 80px;
-	display: block;
-	font-family: 微軟正黑體;
-	text-align: center;
-	padding-top: 40px;
-	position: relative;
-	left: 150px;
-}
-#nav ul {
-	font-family: 微軟正黑體;
-	margin: 0; /*修正留白*/
-	text-align: center;
-	line-height: 30px;
-}
-#nav ul li {
-	display: inline-block;
-	width: 100px;
-}
 }
 
 @media (min-width:992px) and (max-width:1199px){
-#header h2 {
-	width: 300px;
-	height: 60px;
-	display: block;
-	background-color: rgba(243,23,51,0.21);
-	font-family: 微軟正黑體;
-	text-align: center;
-	line-height: 60px; /*文字的line-height與box model同高，可使其上下置中*/
-	border-radius: 10px;
-	border: thin solid rgba(255,5,9,1.00);
-	position: relative;
-	top: 10px;
-	left: 200px;
-}
-#header p {
-	width: 400px;
-	height: 80px;
-	display: block;
-	font-family: 微軟正黑體;
-	text-align: center;
-	padding-top: 40px;
-	position: relative;
-	left: 150px;
-}
-#nav ul {
-	font-family: 微軟正黑體;
-	margin: 0; /*修正留白*/
-	text-align: center;
-	line-height: 30px;
-}
-#nav ul li {
-	display: inline-block;
-	width: 100px;
-}
 }
 
 @media (min-width:1200px){
@@ -194,12 +126,13 @@ body {
 #nav ul {
 	font-family: 微軟正黑體;
 	margin: 0; /*修正留白*/
-	text-align: center;
 	line-height: 30px;
+	/*padding-left: 0px;*/  /*修正mobile留白*/
 }
 #nav ul li {
 	display: inline-block;
-	width: 100px;
+	width: 13%;
+	text-align: center;
 }
 
 
