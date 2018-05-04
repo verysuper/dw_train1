@@ -207,6 +207,18 @@ body {
 	width: 13%;
 	text-align: center;
 }
+#main .photoshow {
+	display: block;
+	float: left;
+	width: 21.5%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-radius: 10px;
+	background-color: #06F83F;
+	border: 3px solid #FFFFFF;
+	margin-top: 30px;
+}
+
 
 
 
