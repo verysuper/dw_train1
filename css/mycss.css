@@ -224,7 +224,16 @@ body {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-
+#main .photoshow h3 {
+	text-align: center;
+}
+#main .photoshow p {
+	display: block;
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	height: auto;
+}
 
 
 
